@@ -1,0 +1,17 @@
+{
+  "name": "oliver-tailwind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "dependencies": {
+    "tailwindcss": "^3.0.23"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "npx tailwindcss -i build/tailwind.css -o assets/css/style.css --watch",
+    "build": "npx tailwindcss -i build/tailwind.css -o assets/css/style.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
